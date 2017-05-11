@@ -1,2 +1,5 @@
 # GP-Appointment-MVC
-MVC-GP-AppointmentApp
+MVC Application
+
+The idea is to make an app where users can make appointment with their GP.
+
