@@ -1,0 +1,41 @@
+﻿@model GPAppointment.ViewModels.AppointmentVMs.AppointmentIndexVM
+
+@{
+    ViewBag.Title = "GetAll";
+}
+<h1 style="text-align:center;font-size: 46px;margin: 27px;">All Appointment</h1>
+
+<table class="table">
+    <tr>
+        <th>@Html.Label("Id")</th>
+        <th>@Html.Label("Arrange Time Start")</th>
+        <th>@Html.Label("End ")</th>
+        <th>@Html.Label("Status")</th>
+        <th>@Html.Label("Patient")</th>
+        <th>@Html.Label("Doctor")</th>
+        <th></th>
+    </tr>
+    @foreach (var item in Model.Items)
+            {
+        <tr>
+            <td>
+                @item.Id
+            </td>
+            <td>
+                @item.ArrangeTime
+            </td>
+            <td>
+                @item.ArrangeTime.AddHours(1)
+            </td>
+            <td>
+                @item.Status
+            </td>
+            <td>
+                @item.Patient.FirstName @item.Patient.LastName
+            </td>
+            <td>
+                @item.Doctor.FirstName @item.Doctor.LastName
+            </td>
+        </tr>
+    }
+</table>

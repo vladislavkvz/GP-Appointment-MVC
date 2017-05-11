@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GP Application</title>
+    <link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script src="~/Scripts/modernizr-2.6.2.js"></script>
+    <link href="~/Content/jquery.datetimepicker.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header" style="width: 85%;">
+                @Html.ActionLink("Home", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                @if (GPAppointment.Models.AuthenticationManager.LoggedUser == null)
+                {
+                    @Html.ActionLink("Login", "Login", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                }
+                else
+                {
+                    @Html.ActionLink("Logout", "Logout", "Home", new { area = "" }, new { @class = "navbar-brand" });
+                }
+                @if (GPAppointment.Models.AuthenticationManager.LoggedUser != null)
+                {
+                    if (GPAppointment.Models.AuthenticationManager.LoggedUser.IsAdmin == true)
+                    {
+                        @Html.ActionLink("Register User", "Register", "User", new { area = "" }, new { @class = "navbar-brand" });
+                        <div style="float:right;">
+                         
+                                @Html.ActionLink("View All Users", "Index", "User", new { area = "" }, new { @class = "navbar-brand" })
+                                @Html.ActionLink("View All Appointment", "GetAll", "Appointment", new { area = "" }, new { @class = "navbar-brand" })
+                                
+                            }
+                        </div>
+                    }
+
+                <div style="float:right;">
+                    @if (GPAppointment.Models.AuthenticationManager.LoggedUser.Position.ToString() == "Patient" && GPAppointment.Models.AuthenticationManager.LoggedUser.IsAdmin ==false)
+                    {
+                        @Html.ActionLink("Request an appointment", "Edit", "Patient", new { area = "" }, new { @class = "navbar-brand" })
+                            @Html.ActionLink("View confirmation", "ViewConfirmed", "Patient", new { area = "" }, new { @class = "navbar-brand" })
+                        @Html.ActionLink("Reschedule", "Reschedule", "Patient", new { area = "" }, new { @class = "navbar-brand" })
+                        @Html.ActionLink("Review approved events", "Index", "Patient", new { area = "" }, new { @class = "navbar-brand" })
+                        
+                    }
+                    @if (GPAppointment.Models.AuthenticationManager.LoggedUser.Position.ToString() == "Doctor" && GPAppointment.Models.AuthenticationManager.LoggedUser.IsAdmin == false)
+                    {
+                        @Html.ActionLink("Review all requests", "Index", "Doctor", new { area = "" }, new { @class = "navbar-brand" })
+                        @Html.ActionLink("Review approved", "ReviewApproved", "Doctor", new { area = "" }, new { @class = "navbar-brand" })
+
+                    }
+                </div>
+                }
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav"></ul>
+            </div>
+        </div>
+    </div>
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - VladislavKVZ</p>
+        </footer>
+    </div>
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script src="~/Scripts/jquery.datetimepicker.full.min.js"></script>
+    <script src="~/Scripts/myJava.js"></script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+﻿@model GPAppointment.ViewModels.AppointmentVMs.AppointmentEditVM
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h1 style="text-align:center;font-size: 46px;margin: 27px;">Request an appointment</h1>
+
+@using (Html.BeginForm()) 
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+        @Html.HiddenFor(model => model.Status)
+        @Html.HiddenFor(model => model.Seen)
+        @Html.HiddenFor(model => model.Patient)
+        @Html.HiddenFor(model => model.Id)
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.ArrangeTime, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.ArrangeTime, new { htmlAttributes = new { @class = "dateTimePicker form-control", @id = "datetimepicker2" } })
+                @Html.ValidationMessageFor(model => model.ArrangeTime, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Doctor.Id, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownListFor(model => model.SelectedDoctorId, Model.DoctorsList, new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.Doctor.Id, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}

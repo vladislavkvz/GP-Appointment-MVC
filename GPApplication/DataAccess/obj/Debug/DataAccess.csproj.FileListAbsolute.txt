@@ -1,0 +1,40 @@
+c:\users\vladislav kavazov\documents\visual studio 2015\Projects\GPApplication\DataAccess\bin\Debug\DataAccess.dll.config
+c:\users\vladislav kavazov\documents\visual studio 2015\Projects\GPApplication\DataAccess\bin\Debug\DataAccess.dll
+c:\users\vladislav kavazov\documents\visual studio 2015\Projects\GPApplication\DataAccess\bin\Debug\DataAccess.pdb
+c:\users\vladislav kavazov\documents\visual studio 2015\Projects\GPApplication\DataAccess\bin\Debug\EntityFramework.dll
+c:\users\vladislav kavazov\documents\visual studio 2015\Projects\GPApplication\DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\vladislav kavazov\documents\visual studio 2015\Projects\GPApplication\DataAccess\bin\Debug\EntityFramework.xml
+c:\users\vladislav kavazov\documents\visual studio 2015\Projects\GPApplication\DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\vladislav kavazov\documents\visual studio 2015\Projects\GPApplication\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+c:\users\vladislav kavazov\documents\visual studio 2015\Projects\GPApplication\DataAccess\obj\Debug\DataAccess.dll
+c:\users\vladislav kavazov\documents\visual studio 2015\Projects\GPApplication\DataAccess\obj\Debug\DataAccess.pdb
+C:\Users\Vladislav Kavazov\Desktop\GPApplication\DataAccess\bin\Debug\DataAccess.dll.config
+C:\Users\Vladislav Kavazov\Desktop\GPApplication\DataAccess\bin\Debug\DataAccess.dll
+C:\Users\Vladislav Kavazov\Desktop\GPApplication\DataAccess\bin\Debug\DataAccess.pdb
+C:\Users\Vladislav Kavazov\Desktop\GPApplication\DataAccess\bin\Debug\EntityFramework.dll
+C:\Users\Vladislav Kavazov\Desktop\GPApplication\DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Vladislav Kavazov\Desktop\GPApplication\DataAccess\bin\Debug\EntityFramework.xml
+C:\Users\Vladislav Kavazov\Desktop\GPApplication\DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Vladislav Kavazov\Desktop\GPApplication\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\Vladislav Kavazov\Desktop\GPApplication\DataAccess\obj\Debug\DataAccess.dll
+C:\Users\Vladislav Kavazov\Desktop\GPApplication\DataAccess\obj\Debug\DataAccess.pdb
+C:\Users\Vladislav Kavazov\Downloads\GPApplication\DataAccess\bin\Debug\DataAccess.dll.config
+C:\Users\Vladislav Kavazov\Downloads\GPApplication\DataAccess\bin\Debug\DataAccess.dll
+C:\Users\Vladislav Kavazov\Downloads\GPApplication\DataAccess\bin\Debug\DataAccess.pdb
+C:\Users\Vladislav Kavazov\Downloads\GPApplication\DataAccess\bin\Debug\EntityFramework.dll
+C:\Users\Vladislav Kavazov\Downloads\GPApplication\DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Vladislav Kavazov\Downloads\GPApplication\DataAccess\bin\Debug\EntityFramework.xml
+C:\Users\Vladislav Kavazov\Downloads\GPApplication\DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Vladislav Kavazov\Downloads\GPApplication\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\Vladislav Kavazov\Downloads\GPApplication\DataAccess\obj\Debug\DataAccess.dll
+C:\Users\Vladislav Kavazov\Downloads\GPApplication\DataAccess\obj\Debug\DataAccess.pdb
+C:\Users\Vladislav Kavazov\Desktop\Programing\Programista Intern Tasks\C#\03. Thu 07\GPApplication\GPApplication\DataAccess\bin\Debug\DataAccess.dll.config
+C:\Users\Vladislav Kavazov\Desktop\Programing\Programista Intern Tasks\C#\03. Thu 07\GPApplication\GPApplication\DataAccess\bin\Debug\DataAccess.dll
+C:\Users\Vladislav Kavazov\Desktop\Programing\Programista Intern Tasks\C#\03. Thu 07\GPApplication\GPApplication\DataAccess\bin\Debug\DataAccess.pdb
+C:\Users\Vladislav Kavazov\Desktop\Programing\Programista Intern Tasks\C#\03. Thu 07\GPApplication\GPApplication\DataAccess\bin\Debug\EntityFramework.dll
+C:\Users\Vladislav Kavazov\Desktop\Programing\Programista Intern Tasks\C#\03. Thu 07\GPApplication\GPApplication\DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Vladislav Kavazov\Desktop\Programing\Programista Intern Tasks\C#\03. Thu 07\GPApplication\GPApplication\DataAccess\bin\Debug\EntityFramework.xml
+C:\Users\Vladislav Kavazov\Desktop\Programing\Programista Intern Tasks\C#\03. Thu 07\GPApplication\GPApplication\DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Vladislav Kavazov\Desktop\Programing\Programista Intern Tasks\C#\03. Thu 07\GPApplication\GPApplication\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\Vladislav Kavazov\Desktop\Programing\Programista Intern Tasks\C#\03. Thu 07\GPApplication\GPApplication\DataAccess\obj\Debug\DataAccess.dll
+C:\Users\Vladislav Kavazov\Desktop\Programing\Programista Intern Tasks\C#\03. Thu 07\GPApplication\GPApplication\DataAccess\obj\Debug\DataAccess.pdb

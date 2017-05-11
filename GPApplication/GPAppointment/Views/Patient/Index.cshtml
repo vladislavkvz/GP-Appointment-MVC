@@ -1,0 +1,36 @@
+﻿@model GPAppointment.ViewModels.AppointmentVMs.AppointmentIndexVM
+
+@{
+    ViewBag.Title = "Index";
+}
+<h1 style="text-align:center;font-size: 46px;margin: 27px;">Approved  Appointments</h1>
+
+<table class="table">
+    <tr>
+        <th>@Html.Label("ArrangeTimeFrom")</th>
+        <th>@Html.Label("ArrangeTimeTo")</th>
+        <th>@Html.Label("Status")</th>
+        <th>@Html.Label("Patient")</th>
+    </tr>
+    @foreach (var item in Model.Items)
+            {
+        <tr>
+            <td>
+                @item.ArrangeTime
+            </td>
+            <td>
+                @item.ArrangeTime.AddHours(1)
+            </td>
+            <td>
+                @item.Status
+            </td>
+            <td>
+                @item.Doctor.FirstName
+            </td>
+        </tr>
+    }
+</table>
+<!--Approved Pager-->
+<div>
+    @Html.Partial("_PagingPartial", Model.Pager)
+</div>
